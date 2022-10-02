@@ -1,0 +1,39 @@
+.bg-img1 {
+    background-color: #000;
+    background-size: cover;
+    background-image: url(img1.jpg);
+    
+}
+
+.bg-img2 {
+    background-color: #000;
+    background-size: cover;
+    background-image: url(img2.jpg);
+   
+}
+
+.bg-img3 {
+    background-color: #000;
+    background-size: cover;
+    background-image: url(img3.jpg);
+    
+}
+
+.carousel-inner {
+    width: 70vh;
+    height: 70vh;
+}
+
+.carousel-item {
+    height: 70vh;
+    border: 2px solid red;
+  }
+  
+.carousel-item img {
+    position: absolute;
+    object-fit:100% 100%;
+    top: 0;
+    left: 0;
+    height: 70vh;
+    order: 5px solid green;
+}  
